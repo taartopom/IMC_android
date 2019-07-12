@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">IMC</string>
+
+    <string name="insuffisant"> Poids insuffisant</string>
+    <string name="normal">Poids normal</string>
+    <string name="embonpoint">Surpoid modéré</string>
+    <string name="obesite_class_i">Surpoid</string>
+    <string name="obesite_class_ii">Obèse</string>
+    <string name="obesite_class_iii">Obèsité morbide</string>
 </resources>
