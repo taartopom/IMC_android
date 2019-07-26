@@ -72,7 +72,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_weight="1"
-                android:background="#7A131110"
+                android:background="#7A090808"
+                android:bufferType="normal"
+                android:button="@android:drawable/btn_radio"
+                android:checked="true"
                 android:text="metre"
                 android:textColor="#F1F0F0"
                 android:textColorHint="#F7F5EDED" />
@@ -82,6 +85,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_weight="1"
+                android:button="@android:drawable/btn_radio"
+                android:checked="false"
+                android:drawableBottom="@color/colorAccent"
                 android:text="centimetre"
                 android:textColor="#F5F2F2" />
 
@@ -97,6 +103,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:button="@android:drawable/checkbox_on_background"
+                android:checked="true"
                 android:text="Mega fonction !"
                 android:textColor="#EBF1E9E9" />
         </LinearLayout>
@@ -136,7 +144,7 @@
                 android:layout_width="24dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Resultat:"
+                android:text=" Resultat:"
                 android:textColor="#F5FA0D0D" />
 
             <TextView

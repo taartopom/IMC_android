@@ -56,8 +56,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if (view.equals(btnCalcul)){
-            caculateIMC();
+            caculateIMC(view);
         }
+        if(view.equals(btnRAZ)){
+            btnCentimetre.setChecked(false);
+            btnMetre.setChecked(true);
+            initButton();
+            txtPoids.setText("");
+            txtTaille.setText("");
+            txtResult.setText("");}
 
     }
 
